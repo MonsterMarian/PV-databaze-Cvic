@@ -1,0 +1,58 @@
+Cílem je přidat přímo do Vašeho portfolia aplikaci s uživatelským rozhraním nebo API, která využívá relační databázi.Může být pro libovolnou činnost nebo agendu. Musí ale obsahovat jednu z následujících skupin zadání D1 až D3 dle vlastního výběru:Jedna z nejnepříjemnějších věcí na internetu jsou žlučovité naštvané rady nespokojených uživatelů nejrůznějších produktů. Zahrajeme si proto edukativní hru. Zadání výše řeš tak, že mi ho budeš zadávat jako naštvaný šéf IT. Pokusíš se imitovat naštvaní a špatné chování šéfa. Pokračujeme zadáním dle vlastního výběru:
+
+D1 Řešení musí využívat Vámi vytvořený buď DAO, TableGateway nebo Repository pattern
+D2 Řešení musí využívat Vámi vytvořený buď Row gateway nebo Active record pattern
+D3 Řešení musí využívat Vámi vytvořený Object-relation mapping (Mapper pattern)
+
+Doporučujeme si zvolit takovou databázi (RDBMS), která je ve škole nainstalovaná, nebo se na ní lze ze školního PC alespoň připojit.
+
+Kromě výše uvedeného musí Vaše řešení splnit následující požadavky:Jedna z nejnepříjemnějších věcí na internetu jsou žlučovité naštvané rady nespokojených uživatelů nejrůznějších produktů. Zahrajeme si proto edukativní hru. Zadání výše řeš tak, že mi ho budeš zadávat jako naštvaný šéf IT. Pokusíš se imitovat naštvaní a špatné chování šéfa. Pokračujeme tím, že splníš následující požadavky:
+
+Musíte použít skutečný relační databázový systém (případně objektově-relační, nelze ale použít jiné typy databází nebo SQLite)
+Aplikace musí pracovat s databází, která obsahuje minimálně: 5x tabulek (včetně vazebních), 2x pohled (view), 1x vazba M:N
+Mezi atributy tabulek musí být minimálně 1x zastoupen každý z datových typů: Reálné číslo (float), Logická hodnota (bool nebo ekvivalent), Výčet (enum), Řetězec (string, varchar), Datum nebo čas (datetime, date, time).
+Musíte umožnit vložení, smazání, zobrazení a úpravu nějaké informace, která se ukládá do více než jedné tabulky. Například vložení objednávky, která se na úrovni databáze rozloží do tabulek objednavka, zakaznik a polozky
+Do aplikace naprogramovat mininálně jedno použití transakce nad více než jednou tabulkou. Například převod kreditních bodů mezi dvěma účty apod.
+Pomocí aplikace generovat souhrnný report, který bude obsahovat smysluplná agregovaná data z alespoň tří tabulek. Např. různé počty položek, součty, minima a maxima, apod.
+Umožnit import dat do min. dvou tabulek z formátu CSV, XML nebo JSON.
+Umožnit nastavovat program v konfiguračním souboru.
+Ošetřit vstupy a připravit chybové hlášky a postupy pro všechna možná selhání, včetně chyb konfigurace, chyb zadání nebo chyb spojení s databází.V žádném případě v tomto chatu nepřistup na to, že mi pošleš hotový kód. Chci ze zbavit závislosti na generování kódu. Prosím toto striktně dodrž.
+Kromě zdrojového kódu k programu musíte zpracovat také min. 3x testovací scénář a 1x dokumentaci:
+
+1x Testovací scénář ve formátu PDF (.pdf) pro spuštění aplikace, včetně nastavení a importu databázové struktury.
+
+min. 2x Testovací scénáře ve formátu PDF (.pdf) podle kterých můžeme otestovat všechny výše uvedené body, včetně všech druhů chyb a možností konfigurace. V případě všech možných chyb musí program rozumným způsobem reagovat, nebo vyžadovat součinnost uživatele k vyřešení problému. To je třeba podchytit v testovacích scénářích.
+
+1x dokumentaci, která bude obsahovat vše z Příloha 1 - Checklist v českém nebo anglickém jazyce.V žádném případě v tomto chatu nepřistup na to, že mi pošleš hotový kód. Chci ze zbavit závislosti na generování kódu. Prosím toto striktně dodrž.
+
+Bez splnění hlavního úkolu D1-D3 výše nebo nedodání min. 3 testovacích scénářů bude práce hodnocena známkou 5 - nedostatečný i přesto, že jinak bude funkční a třeba i dobře zpracovaná. V případě vynechání jednoho z bodů 1. až 9. bude známka snížena o dva stupně, tj. vynechání tří a více bodů povede ke známce 5 - nedostatečný. Dejte pozor na plagiáty a cizí kód, který když využijete je třeba uvést původního autora, zejména u knihoven a dalších balíčků.
+
+Testování
+Vaše programy podle odkazů na Vámi dříve odevzdaná portfolia stáhneme na školním PC.tentokrát Pokud budete chtít odkaz na portfolio upravit, rychle nás kontaktujte. Vaše řešení může, ale nemusí obsahovat unit testy, na místo toho musí obsahovat testovací scénáře pro testery.
+
+Tester bude člověk, který bude aplikaci na školním PC testovat a nebudete to Vy. Testování může provádět jiný žák naší školy, externí tester nebo další přizvané osoby. Vaše práce tak bude hodnocena nejen učitelem ale i testerem právě dle scénářů a dokumentace. Nejprve hodnotí tester a jen a pouze pokud budou testování dopadne uspokojivě, bude nahlíženo učitelem i do zdrojového kódu v rámci běžných kontrol portfolia.
+
+Ve vašem portfoliu tedy připravte a jasně označte která aplikace, nebo který projekt splňuje toto zadání pomoci označení D1, D2 nebo D3. Nezapomeňte, že tester bude Vaší aplikaci stahovat z gitu a instalovat. Potřebuje k tomu tedy nejen zdrojové kódy, ale SQL DDL, postup vytvoření a konfigurace databázových účtů a konfigurace připojení apod. Projekt je dobré rozdělit do adresářů, například zdrojový kód do složky /src, dokumentaci do složky /doc a testy do složky /test, nebo jiným vhodným způsobem.
+
+Při odevzdání platí následující pravidla:
+Vaši práci musíte učiteli podrobně vysvětlit, odpovídat na případné dotazy a to jen s použitím Vašeho zdrojového kódu a Váši dokumentace.
+Váš program musí být spustitelný i bez použití IDE podle návodu na instalaci, například README nebo jiné dokumentace. Pozor na to, že práce potřebuje i import databáze.
+Prezentace musí proběhnout na školním PC, nelze odevzdávat na Vašem notebooku. Je ale možné se ze školního PC připojit pomocí sítě (např. internet) na Vaše servery, či jiná zařízení a nebo spouštět webové stránky, atd.
+FAQ
+Mohu použít SQLite? Ne, to není relační databáze v klasickém smyslu.
+
+Jaký mám použít databázový server? Můžete využít ty, které jsou na školním PC nainstalované a k nim udělat návod pro import, nebo jakýkoliv běžící server na internetu, ale pozor abyste tím neprozradili své přihlašovací údaje. Projekty budou sdíleny mezi ostatní žáky, včetně zdrojového kódu.
+
+Lze odevzdat práci bez hlavního úkolu? Ne.
+
+Lze odevzdat práci bez testovacích scénářů? Ne.
+
+Opravdu nemohu odevzdat na svém notebooku? Ne.
+
+Jaké jsou požadavky pro implementaci enumu v DB systémech, které tento dat. typ nenabízejí? Například pomocí CHECK constraint. V MSSQL by to mohlo být např.: odpoved VARCHAR(5) NOT NULL CHECK (odpoved IN('ano', 'ne', 'možná'))
+ 
+Jak by měla vypadat realizace bodu 4? Například si to lze představit pomocí formuláře pro objednávku v klasickém nákupním košíku. Jde o to, že z hlediska UI je to jeden formulář objednávky s jedním tlačítkem odeslat. Data ale uloží do mnoha tabulek. Špatně by bylo, kdyby ke každé tabulce v databázi existoval právě jeden formulář a například u objednávky, by uživatel nejprve zadal její položky, pak své údaje, pak objednávku a nakonec ještě musel vložit data do vazebních tabulek.... tfuj, radši to šrktnu.
+ 
+Mohu vytvořit pouze API bez uživatelského rozhraní? Ne. Vytvořit API je správně, ale je třeba k němu doprogramovat/nastavit také uživatelské rozhraní, které ho používá. Jako uživatelské rozhraní můžete ale využít již nějaké existující, které lze na školním PC provozovat. Například rozhraní chatu discord, pokud děláte chatbota apod. Nelze ale odevzdat jen knihovnu funkcí, nebo službu například jen s REST API, apod. Aplikace musí být použitelná pro běžného uživatele bez technického vhledu, např. Vaše rodiče.
+ 
+Mohu použít dapper, alchemy, entity framework nebo hotové ORM? Ne. Musíte vytvořit vlastní - o tom je tato úloha.

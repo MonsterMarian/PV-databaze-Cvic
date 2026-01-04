@@ -1,0 +1,23 @@
+[
+    {
+        "FirstName": "Michael",
+        "LastName": "Davis",
+        "Email": "michael.davis@example.com",
+        "DateOfBirth": "1991-07-14",
+        "CreditLimit": 4800.00
+    },
+    {
+        "FirstName": "Sarah",
+        "LastName": "Miller",
+        "Email": "sarah.miller@example.com",
+        "DateOfBirth": "1987-03-25",
+        "CreditLimit": 5500.00
+    },
+    {
+        "FirstName": "David",
+        "LastName": "Wilson",
+        "Email": "david.wilson@example.com",
+        "DateOfBirth": "1993-09-08",
+        "CreditLimit": 3200.00
+    }
+]
