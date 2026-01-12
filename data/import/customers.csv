@@ -1,0 +1,6 @@
+FirstName,LastName,Email,DateOfBirth,CreditLimit
+John,Doe,john.doe@example.com,1990-05-15,5000.00
+Jane,Smith,jane.smith@example.com,1985-12-03,3500.00
+Bob,Johnson,bob.johnson@example.com,1992-08-22,4200.00
+Alice,Brown,alice.brown@example.com,1988-11-10,6000.00
+Charlie,Williams,charlie.williams@example.com,1995-02-28,2800.00

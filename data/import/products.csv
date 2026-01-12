@@ -1,0 +1,7 @@
+ProductName,Description,Price,CategoryID,InStock,ProductStatus
+Laptop,High-performance laptop for professionals,1299.99,1,1,active
+Wireless Mouse,Ergonomic wireless mouse,29.99,1,1,active
+Programming Book,Learn Python Programming,39.99,2,1,active
+Cotton T-Shirt,100% cotton t-shirt,19.99,3,1,active
+Smartphone,Latest model smartphone,899.99,1,0,active
+Headphones,Noise-cancelling headphones,199.99,1,1,active
